@@ -15,3 +15,6 @@ The goal is trying to make a drone that is automatically controlled which can pr
 
 ## Research Links
 https://developers.google.com/maps
+
+
+https://www.wilselby.com/research/arducopter/
