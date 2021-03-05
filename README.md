@@ -18,3 +18,10 @@ https://developers.google.com/maps
 
 
 https://www.wilselby.com/research/arducopter/
+
+
+https://ardupilot.org/copter/docs/connecting-the-apm2.html
+
+## Items needed
+Telemetry Radio:
+https://www.sparkfun.com/products/15007
