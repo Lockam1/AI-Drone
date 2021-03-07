@@ -10,6 +10,7 @@ its missions.
 - Input coordinates from your current location or a intended destination.
 - The drone will pull the data and plot a waypoint to the destination.
 	- This will be done using a python script that runs when the Pi is connected to the internet at home.
+- Find a sutiable waypoint mission route to get to the intended location in as little time as possiable.
 - The drone will take full AI control when it arrives within the poximity of the location to find a suitable place to land.
 - Static or dynamic site?
 
