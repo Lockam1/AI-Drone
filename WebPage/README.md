@@ -11,6 +11,7 @@ its missions.
 - Drone to pull data and plot a waypoint to the destination.
 	- This to be done using a python script that runs when the Pi is connected to the internet at home.
 - Drone to take full ai control when it arrives within the poximity of the location to find a suitable place to land.
+- Static or dynamic site?
 
 ### Websites needed feauters:
 
