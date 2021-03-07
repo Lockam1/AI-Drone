@@ -16,5 +16,3 @@ its missions.
 
 - [ ] Publicly accessible webpage.
 - [ ] Retrive input data for a location. (Maps API?)(Physical location?)
-- [ ] 
-- [ ]
