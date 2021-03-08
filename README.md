@@ -30,5 +30,18 @@ https://www.wilselby.com/research/arducopter/
 https://ardupilot.org/copter/docs/connecting-the-apm2.html
 
 ## Items needed
-Telemetry Radio:
+
+Radio transmitter and receiver:
+
 https://www.sparkfun.com/products/15007
+
+Raspberry PI:
+
+https://www.pbtech.co.nz/product/SEVRBP0267/Raspberry-Pi-4-Model-B-8GB-LPDDR4-Quad-Core-Cortex?src=raspberrypi
+https://www.pbtech.co.nz/product/SEVRBP0208/Raspberry-Pi-Official-White-AU-Plug-AC-Adapter-wit
+https://www.pbtech.co.nz/product/SEVRBP0262/Raspberry-Pi-Official-1M-Black-Cable-Micro-HDMI-to?qr=GShopping&gclid=EAIaIQobChMI7rmBi72f7wIVjn8rCh3hhAikEAQYBCABEgJ3pvD_BwE
+https://www.pbtech.co.nz/product/SEVRBP0049/Raspberry-Pi-Aluminium-Heatsink-Set-for-Raspberry
+
+
+Possible Lidar?
+https://buy.garmin.com/en-NZ/NZ/p/557294/pn/010-01722-00#overview
