@@ -13,6 +13,7 @@ its missions.
 - Find a sutiable waypoint mission route to get to the intended location in as little time as possiable.
 - The drone will take full AI control when it arrives within the poximity of the location to find a suitable place to land.
 - Static or dynamic site?
+- Use a static website gen and a hosting programm so up keep in minmimal and the work to do is less.
 
 ### Websites needed feauters:
 
