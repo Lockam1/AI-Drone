@@ -14,6 +14,7 @@ its missions.
 - The drone will take full AI control when it arrives within the poximity of the location to find a suitable place to land.
 - Static or dynamic site?
 - Use a static website gen and a hosting programm so up keep in minmimal and the work to do is less.
+- Netlify to host? or Local?
 
 ### Websites needed feauters:
 
