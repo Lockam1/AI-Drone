@@ -2,39 +2,47 @@
 layout: base-layout.njk
 
 ---
-<div class="content">
-    <h1 class ="text-center">Order Your Drone Dillivery Today!!</h1>
-</div>
 {# Google maps javascript code. #}
 <script>
     // Initialize and add the map
     function initMap() {
-    // The location of dunedin
-    const dunedin = { lat: -45.8966, lng: 170.4631 };
-    // The map, centered at Dunedin
-    const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 4,
-        center: dunedin,
-    });
-    // The marker, positioned at dunedin
-    const marker = new google.maps.Marker({
-        position: dunedin,
-        map: map,
-    });
+        // The location of dunedin
+        const dunedin = { lat: -45.8966, lng: 170.4631 };
+        // The map, centered at Dunedin
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: dunedin,
+        });
+        // The marker, positioned at dunedin
+        const marker = new google.maps.Marker({
+            position: dunedin,
+            map: map,
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow1.open(map, marker);
+        });
+
     }
+   
 </script>
+
+
+<div class="content">
+    <h1 class ="text-center">Order Your Drone Dillivery Today!!</h1>
+</div>
+
 <div class="content">
     <h3 class="text-center">Find your Dillivery location</h3>
-    <!--The div element for the map -->
     <div id="map"></div>
-
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVLI9wFnb6fArTFeo7sOGpTS__C8yANHs&callback=initMap">
-    </script>
     <div class = "buttons">
         <button id="submit" type="button" class="btn btn-success" onclick="toJson()" >Submit</button>
         <button type="button" class="btn btn-danger"><a href="/"> Cancel </a></button>
     </div>
+
+
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVLI9wFnb6fArTFeo7sOGpTS__C8yANHs&callback=initMap">
+    </script>
 </div>
 
