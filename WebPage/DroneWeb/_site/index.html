@@ -34,23 +34,23 @@
   <main> 
     
 <script>
+    var lat = 0;
+    var long = 0;
     // Initialize and add the map
     function initMap() {
         // The location of dunedin
         const dunedin = { lat: -45.855874, lng: 170.514675 };
         // The map, centered at Dunedin
         const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 4,
+            zoom: 10,
             center: dunedin,
         });
         // The marker, positioned at dunedin
-        const marker = new google.maps.Marker({
-            position: dunedin,
-            map: map,
-        });
+        
 
     google.maps.event.addListener(map, 'click', function(event) {
         placeMarker(map, event.latLng);
+        console.log(lat, long);
     });
     function placeMarker(map, location) {
         var marker = new google.maps.Marker({
@@ -61,6 +61,9 @@
             content: 'Latitude: ' + location.lat() +
             '<br>Longitude: ' + location.lng()
         });
+        //Saving long and lat values to a variable for use later
+        lat = location.lat(); 
+        long = location.lng();
         infowindow.open(map,marker);
     }
 
