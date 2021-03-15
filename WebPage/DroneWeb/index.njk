@@ -25,10 +25,9 @@ layout: base-layout.njk
             placeMarker(map, event.latLng);
             console.log(lat, long);
         });
-        
-
 
     }
+
     function placeMarker(map, location) {
             var marker = new google.maps.Marker({
                 position: location,
@@ -38,6 +37,7 @@ layout: base-layout.njk
                 content: 'Latitude: ' + location.lat() +
                 '<br>Longitude: ' + location.lng()
             });
+            
             //Saving long and lat values to a variable for use later
             lat = location.lat(); 
             long = location.lng();
@@ -45,8 +45,10 @@ layout: base-layout.njk
         }
    
     function submit(){
-        console.log("Submitted");
+        alert("Submited location at, lat:" + lat + ", long:" + long);
     }
+
+    
 </script>
 
 
