@@ -21,27 +21,28 @@ layout: base-layout.njk
             map: map,
         }); #}
 
-    google.maps.event.addListener(map, 'click', function(event) {
-        placeMarker(map, event.latLng);
-        console.log(lat, long);
-    });
+        google.maps.event.addListener(map, 'click', function(event) {
+            placeMarker(map, event.latLng);
+            console.log(lat, long);
+        });
+        
+
+
+    }
     function placeMarker(map, location) {
-        var marker = new google.maps.Marker({
-            position: location,
-            map: map
-        });
-        var infowindow = new google.maps.InfoWindow({
-            content: 'Latitude: ' + location.lat() +
-            '<br>Longitude: ' + location.lng()
-        });
-        //Saving long and lat values to a variable for use later
-        lat = location.lat(); 
-        long = location.lng();
-        infowindow.open(map,marker);
-    }
-
-
-    }
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+            var infowindow = new google.maps.InfoWindow({
+                content: 'Latitude: ' + location.lat() +
+                '<br>Longitude: ' + location.lng()
+            });
+            //Saving long and lat values to a variable for use later
+            lat = location.lat(); 
+            long = location.lng();
+            infowindow.open(map,marker);
+        }
    
 </script>
 
