@@ -29,6 +29,8 @@ https://www.wilselby.com/research/arducopter/
 
 https://ardupilot.org/copter/docs/connecting-the-apm2.html
 
+Arudino based copter: https://www.mydronelab.com/blog/arduino-quadcopter.html
+
 ## Items needed
 
 Radio transmitter and receiver:
