@@ -48,18 +48,33 @@
         // The marker, positioned at dunedin
         
 
-    google.maps.event.addListener(map, 'click', function(event) {
-        placeMarker(map, event.latLng);
-        console.log(lat, long);
-    });
+        google.maps.event.addListener(map, 'click', function(event) {
+            clearMarkers();
+            placeMarker(map, event.latLng);
+            console.log(lat, long);
+        });
+       
+    }
+
+    function clearMarkers(){
+        
+    }
+
     function placeMarker(map, location) {
-        var marker = new google.maps.Marker({
+        
+        var marker = null;
+        marker = new google.maps.Marker({
             position: location,
             map: map
         });
-        var infowindow = new google.maps.InfoWindow({
+        var infowindow = null;
+        infowindow = new google.maps.InfoWindow({
             content: 'Latitude: ' + location.lat() +
             '<br>Longitude: ' + location.lng()
+        });
+        
+        google.maps.event.addListener(map, "click", function(event) {
+            marker.setMap(null);
         });
         //Saving long and lat values to a variable for use later
         lat = location.lat(); 
@@ -68,7 +83,7 @@
     }
 
 
-    }
+    
    
 </script>
 
