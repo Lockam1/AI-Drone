@@ -56,4 +56,5 @@ https://buy.garmin.com/en-NZ/NZ/p/557294/pn/010-01722-00#overview
 - have a way to disable drone if needed.
 - stay out of the way of the drone.
 - If it wants you, let it take you.
+- guards on the drone and everything tied down so nothing is loose.
 
