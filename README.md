@@ -47,3 +47,11 @@ https://www.pbtech.co.nz/product/SEVRBP0049/Raspberry-Pi-Aluminium-Heatsink-Set-
 
 Possible Lidar
 https://buy.garmin.com/en-NZ/NZ/p/557294/pn/010-01722-00#overview
+
+## Safety plan for test flight
+
+- Have the drone tethered by the legs and arms with wire.
+- Wear saftey goggles.
+- have a way to disable drone if needed.
+- stay out of the way of the drone.
+
