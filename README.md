@@ -19,6 +19,7 @@ The goal is trying to make a drone that is automatically controlled which can pr
 - Find a sutiable waypoint mission route to get to the intended location in as little time as possiable.
 - The drone will take full AI control when it arrives within the poximity of the location to find a suitable place to land.
 - Static or dynamic site?
+- uses a variety of sensors to acheive this
 
 ## Research Links
 https://developers.google.com/maps
