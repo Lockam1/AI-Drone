@@ -55,4 +55,5 @@ https://buy.garmin.com/en-NZ/NZ/p/557294/pn/010-01722-00#overview
 - Wear saftey goggles.
 - have a way to disable drone if needed.
 - stay out of the way of the drone.
+- If it wants you, let it take you.
 
