@@ -49,7 +49,7 @@ https://www.pbtech.co.nz/product/SEVRBP0049/Raspberry-Pi-Aluminium-Heatsink-Set-
 Possible Lidar
 https://buy.garmin.com/en-NZ/NZ/p/557294/pn/010-01722-00#overview
 
-2 or 4 x new ESC for motor control https://www.rchobbies.co.nz/htirc-dragonfly-20a-multi-rotor-esc/
+ 4 x new ESC for motor control https://hobbystation.co.nz/hobbywing-skywalker-20a-brushless-esc/
 
 ## Safety plan for test flight
 
