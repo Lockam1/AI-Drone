@@ -1,0 +1,1 @@
+Python script being used to pull json data from the hosted webpage when a user submits a request, so the long andlat values can be used within the mission planner software.
