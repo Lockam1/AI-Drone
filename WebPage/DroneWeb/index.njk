@@ -68,13 +68,13 @@ layout: base-layout.njk
     function download_txt() {
         var hiddenElement = document.createElement('a');
 
-        hiddenElement.href = 'data:attachment/text,' + encodeURI("long: ", long, "Lat: ", lat);
+        hiddenElement.href = 'data:attachment/text,' + encodeURI("long: " + long + " Lat: " + lat);
         hiddenElement.target = '_blank';
         hiddenElement.download = 'myFile.txt';
         hiddenElement.click();
     }
 
-    document.getElementById('test').addEventListener('click', download_txt);
+    //document.getElementById('test').addEventListener('click', download_txt);
 
     
 </script>
