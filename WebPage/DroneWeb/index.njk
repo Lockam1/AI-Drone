@@ -67,8 +67,14 @@ layout: base-layout.njk
 
     function download_txt() {
         var hiddenElement = document.createElement('a');
+        var text =  `QGC WPL 110
+0	1	0	16	0	0	0	0	-45.865092	170.520558	7.657755	1
+1	0	3	16	0	0	0	0	`+ lat+`	`+ long+`	100	1`;
 
-        hiddenElement.href = 'data:attachment/text,' + encodeURI("long: " + long + " Lat: " + lat);
+
+        {# hiddenElement.href = 'data:attachment/text,' + encodeURI("long: " + long + " Lat: " + lat); #}
+        hiddenElement.href = 'data:attachment/text,' + encodeURI(text);
+
         hiddenElement.target = '_blank';
         hiddenElement.download = 'myFile.txt';
         hiddenElement.click();
