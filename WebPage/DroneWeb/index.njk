@@ -25,6 +25,7 @@ layout: base-layout.njk
             clearMarkers();
             placeMarker(map, event.latLng);
             console.log(lat, long);
+            
         });
        
     }
@@ -60,7 +61,20 @@ layout: base-layout.njk
    
     function submit(){
         alert("Submited location at, lat:" + lat + ", long:" + long);
+        var json = JSON.stringify(lat, long);
+        download_txt();
     }
+
+    function download_txt() {
+        var hiddenElement = document.createElement('a');
+
+        hiddenElement.href = 'data:attachment/text,' + encodeURI("long: ", long, "Lat: ", lat);
+        hiddenElement.target = '_blank';
+        hiddenElement.download = 'myFile.txt';
+        hiddenElement.click();
+    }
+
+    document.getElementById('test').addEventListener('click', download_txt);
 
     
 </script>
