@@ -32,6 +32,10 @@ https://ardupilot.org/copter/docs/connecting-the-apm2.html
 
 Arudino based copter: https://www.mydronelab.com/blog/arduino-quadcopter.html
 
+# Assembly instructions for the 3dr arducopter quad
+
+https://www.robotshop.com/media/files/pdf/assembly-instructions-kt-ac3dr-01.pdf
+
 ## Items needed
 
 Radio transmitter and receiver:
