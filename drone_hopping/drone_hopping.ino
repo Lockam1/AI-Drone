@@ -1,15 +1,69 @@
-#include <Servo.h>
-Servo ESC1;
+//Parameters
+const int escPin = 5;
+int min_throttle = 1000;
+int max_throttle = 2000;
+unsigned long currentMillis, previousMillis;
 
 void setup() {
-  // Attach the ESC on pin 9
-  ESC1.attach(9,1000,2000); // (pin, min pulse width, max pulse width in microseconds) 
-
+  //Init Serial USB
+  Serial.begin(9600);
+  Serial.println(F("Initialize System"));
+  //Init ESC
+  pinMode(escPin, OUTPUT);
+  initProcedure();
 }
+
 void loop() {
-  for (int i = 0; i <= 20; i++) {
-    ESC1.write(i);
+  runBrushless();
+  delay(10000);
+}
+
+void runBrushless() { /* function runBrushless */
+  //// Test Brushless routine
+  Serial.println("running");
+  currentMillis = 0;
+  previousMillis = millis();
+  while (currentMillis < 2000) {
+    currentMillis = millis() - previousMillis;
+    digitalWrite(escPin, HIGH);
+    delayMicroseconds(1350);
+    digitalWrite(escPin, LOW);
     delay(20);
   }
-    delay(15000);
+  Serial.println("stop");
+  currentMillis = 0;
+  previousMillis = millis();
+  while (currentMillis < 2000) {
+    currentMillis = millis() - previousMillis;
+    digitalWrite(escPin, HIGH);
+    delayMicroseconds(min_throttle);
+    digitalWrite(escPin, LOW);
+    delay(20);
+  }
+}
+
+void initProcedure() { /* function initProcedure */
+  //// ESC inittialisation process
+  previousMillis = millis();
+  Serial.println("throttle up");
+  while (currentMillis < 3000) {
+    currentMillis = millis() - previousMillis;
+    Serial.println(currentMillis);
+    digitalWrite(escPin, HIGH);
+    delayMicroseconds(max_throttle);
+    digitalWrite(escPin, LOW);
+    delay(20);
+  } //beep- beep-
+  currentMillis = 0;
+  previousMillis = millis();
+  Serial.println("throttle down");
+  while (currentMillis < 4500) {
+    currentMillis = millis() - previousMillis;
+    Serial.println(currentMillis);
+    digitalWrite(escPin, HIGH);
+    delayMicroseconds(min_throttle);
+    digitalWrite(escPin, LOW);
+    delay(20);
+  } // beep--
+  // 1 2 3
 }
