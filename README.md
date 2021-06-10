@@ -36,6 +36,10 @@ https://ardupilot.org/copter/docs/connecting-the-apm2.html
 
 Arudino based copter: https://www.mydronelab.com/blog/arduino-quadcopter.html
 
+## Question for getting software working on raspberry Pi
+
+https://answers.launchpad.net/sikuli/+question/697135
+
 # Assembly instructions for the 3dr arducopter quad
 
 https://www.robotshop.com/media/files/pdf/assembly-instructions-kt-ac3dr-01.pdf
