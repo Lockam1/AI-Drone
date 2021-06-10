@@ -36,6 +36,9 @@ https://ardupilot.org/copter/docs/connecting-the-apm2.html
 
 Arudino based copter: https://www.mydronelab.com/blog/arduino-quadcopter.html
 
+# Lidar
+https://static.garmin.com/pumac/LIDAR_Lite_v3_Operation_Manual_and_Technical_Specifications.pdf
+
 ## Question for getting software working on raspberry Pi
 
 https://answers.launchpad.net/sikuli/+question/697135
