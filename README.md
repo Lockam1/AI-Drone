@@ -4,7 +4,9 @@ We try to make a drone flying with AI? Questionmark?
 ## Exsiting BattleBot Repo
 - https://github.com/pangdw1/Battle-Bots-2020
 
-## Website repo for the repo.
+## Website repo for the Webpage.
+This is the webpage to where you can request your drone dillivary.
+- https://dronewebpage.netlify.app/
 - https://github.com/Lockam1/DroneWebPage
 
 ## Members
