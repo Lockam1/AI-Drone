@@ -4,11 +4,15 @@ We try to make a drone flying with AI? Questionmark?
 ## Exsiting BattleBot Repo
 - https://github.com/pangdw1/Battle-Bots-2020
 
+## Website repo for the Webpage.
+This is the webpage to where you can request your drone dillivary.
+- https://dronewebpage.netlify.app/
+- https://github.com/Lockam1/DroneWebPage
+
 ## Members
 - Anthony Lock
 - Damian Pang
 - Dhugald Spry
-- Joe Horrell
 
 ## Idea
 The goal is trying to make a drone that is automatically controlled which can preform task and travel from point A to point B, avoid obsticals and diliver and item and return to its home without destroying itself. We ar going to use the exsiting farmbot battlebot chassis as a 2d platform to test and demo the main functionality that the drone will have and then take this to an actuall drone.
@@ -31,6 +35,17 @@ https://www.wilselby.com/research/arducopter/
 https://ardupilot.org/copter/docs/connecting-the-apm2.html
 
 Arudino based copter: https://www.mydronelab.com/blog/arduino-quadcopter.html
+
+# Lidar
+https://static.garmin.com/pumac/LIDAR_Lite_v3_Operation_Manual_and_Technical_Specifications.pdf
+
+## Question for getting software working on raspberry Pi
+
+https://answers.launchpad.net/sikuli/+question/697135
+
+# Assembly instructions for the 3dr arducopter quad
+
+https://www.robotshop.com/media/files/pdf/assembly-instructions-kt-ac3dr-01.pdf
 
 ## Items needed
 
